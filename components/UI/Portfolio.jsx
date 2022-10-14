@@ -11,14 +11,6 @@ const Portfolio = () => {
   const [data, setData] = useState();
 
   useEffect(() => {
-    // if (filter === "Mobile App") {
-    //   const filteredData = .filter(
-    //     (item) => item.category === filter
-    //   );
-
-    //   setData(filteredData);
-    // }
-
     if (filter === "Web Design") {
       const filteredData = portfolioData.filter(
         (item) => item.category === filter
@@ -38,17 +30,6 @@ const Portfolio = () => {
             <SectionSubtitle subtitle=" My portfolio" />
             <h4 className="mt-4">Some of my distinguished works</h4>
           </Col>
-
-          {/* <Col lg="6" md="6">
-            <div className={`${classes.tab__btns} text-end`}> */}
-              {/* <button
-                className={` ${
-                  filter === "Mobile App" ? active : ""
-                } secondary__btn text-white`}
-                onClick={() => setFilter("Mobile App")}
-              >
-                Mobile App
-              </button> */}
               <button
                 className={`${
                   filter === "Web Design" ? active : ""
@@ -57,8 +38,6 @@ const Portfolio = () => {
               >
                 Web
               </button>
-            {/* </div>
-          </Col> */}
 
           {data?.map((item) => (
             <Col lg="4" md="4" sm="6" key={item.id}>

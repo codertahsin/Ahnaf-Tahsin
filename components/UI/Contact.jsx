@@ -15,7 +15,7 @@ const Contact = () => {
             <h3 className="mt-4 mb-4">Contact with me</h3>
             <p>
             I am ready to take big responsibility,
-             Work of my client with full Concentration.
+            Work of my client with full Concentration.
             </p>
 
             <ul className={`${classes.contact__info__list}`}>
@@ -35,20 +35,23 @@ const Contact = () => {
             </ul>
 
             <div className={`${classes.social__links}`}>
-              {/* <Link href="https://www.youtube.com/">
-                <i className="ri-youtube-line"></i>
-              </Link> */}
+              <Link href="https://linktr.ee/ahnaftahsin">
+                <i className="ri-links-line"></i>
+              </Link>
               <Link href="https://www.github.com/codertahsin">
                 <i className="ri-github-line"></i>
-              </Link>
-              <Link href="https://www.facebook.com/ahnaftahsen">
-                <i className="ri-facebook-line"></i>
               </Link>
               <Link href="https://www.linkedin.com/login">
                 <i className="ri-linkedin-line"></i>
               </Link>
-              <Link href="https://www.instagram.com/ahnaftahsen">
+              <Link href="https://www.twitter.com/coder_tahsin">
+                <i className="ri-twitter-line"></i>
+              </Link>
+              <Link href="https://www.instagram.com/codertahsin">
                 <i className="ri-instagram-line"></i>
+              </Link>
+              <Link href="https://www.facebook.com/codertahsin">
+                <i className="ri-facebook-line"></i>
               </Link>
             </div>
           </Col>

@@ -70,12 +70,8 @@ const About = () => {
 
             <div className="mt-5">
               <button className="primary__btn">
-                <Link href="https://t.me/ahnaf_tahsin">Telegram</Link>
+                <Link href="https://linktr.ee/ahnaftahsin">Contact</Link>
               </button>
-
-              {/* <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
-              </button> */}
             </div>
           </Col>
 

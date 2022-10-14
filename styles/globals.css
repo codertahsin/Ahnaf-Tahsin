@@ -62,8 +62,16 @@ footer {
   background: transparent;
   border: none;
   outline: none;
-  padding: 7px 25px;
-  font-size: x-large;
+  padding: 7px 25px; 
+  font-size: x-large; 
+}
+
+.rst_btn{
+  background: #171f38 !important;
+  padding: 7px 25px !important;
+  border: 1px solid #01d293 !important;
+  border-radius: 5px;
+  margin-left: 15px;
 }
 
 .secondary__btn a {

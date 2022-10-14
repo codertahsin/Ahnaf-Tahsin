@@ -32,9 +32,6 @@ const Services = () => {
             I am a highly- dedicated, enthusiastic, certified individual who is looking for a Programming position 
             where I can utilize my skills and experience in designing, developing, 
             implementing and maintaining software applications according to clients requirements.
-            I am a highly- dedicated, enthusiastic, certified individual who is looking for a Programming position 
-            where I can utilize my skills and experience in designing, developing, implementing and 
-            maintaining software applications according to clients requirements.
             </p>
           </Col>
         </Row>
