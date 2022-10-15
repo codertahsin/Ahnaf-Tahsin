@@ -11,7 +11,7 @@ const Form = () => {
     emailjs.sendForm('service_4uooeb4', 'template_b4bx3ot', form.current, 'qP0IDdARH1O9Ek3mt')
       .then((result) => {
           console.log(result.text);
-          console.log('Message Sent')
+          document.write('Thank you for communication with me.')
       }, (error) => {
           console.log(error.text);
       });
@@ -32,9 +32,6 @@ return (
       </div>
       <button className="primary__btn" value="Send" type="submit">
       send
-      </button>
-      <button className="rst_btn" value="Reset" type="reset">
-      Reset
       </button>
     </form>
     </styledContactFrom>
