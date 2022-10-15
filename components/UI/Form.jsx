@@ -3,6 +3,7 @@ import classes from "../../styles/form.module.css";
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
+
 const Form = () => {
 
   const form = useRef();
@@ -11,7 +12,7 @@ const Form = () => {
     emailjs.sendForm('service_4uooeb4', 'template_b4bx3ot', form.current, 'qP0IDdARH1O9Ek3mt')
       .then((result) => {
           console.log(result.text);
-          document.write('Thank you for communication with me.')
+          document.write('<center><h1><b>Thank you for communication with me.</b><h3></center>')
       }, (error) => {
           console.log(error.text);
       });
