@@ -28,8 +28,8 @@ const Hero = () => {
               <br />
               <h5 className="mb-4">My contribute to as a professional<br />
               <Typewriter
-            words={['Software Engineer', 'MERN Stuck Developer',]}
-            loop={70}
+            words={['Full Stack Engineer']}
+            loop={1}
             cursor
             cursorStyle='|'
             typeSpeed={90}
