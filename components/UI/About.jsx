@@ -22,9 +22,9 @@ const About = () => {
             <h3 className="mb-4">to help your next project</h3>
             <p>
               I love to work with people in order to build things that matter.
-              Hi, Im a professional Software Engineer and MERN Stack Developer.
-              I am an expert on JavaScript frameworks: React.JS, NodeJS,
-              MongoDB, and Express.JS. I also have solid foundations in HTML5,
+              Hi, Im a professional Full Stack Engineer.
+              I am an expert on JavaScript, React, Next, Node,
+              MongoDB, and Express. I also have solid foundations in HTML5,
               CSS3, Bootstrap, Tailwind, ECMAScript, React Bootstrap, and
               Material UI Theme Customization.
               <br />
