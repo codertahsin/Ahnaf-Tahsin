@@ -5,9 +5,9 @@ import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
 
 import img01 from "../../public/images/img-01.jpg";
-import img02 from "../../public/images/img-02.jpg";
+import img02 from "../../public/images/coding.gif";
 import img03 from "../../public/images/img-03.jpg";
-import img04 from "../../public/images/hero.jpg";
+import img04 from "../../public/images/img-02.jpg";
 
 import classes from "../../styles/about.module.css";
 
@@ -22,11 +22,10 @@ const About = () => {
             <h3 className="mb-4">to help your next project</h3>
             <p>
               I love to work with people in order to build things that matter.
-              Hi, Im a professional Full Stack Engineer.
-              I am an expert on JavaScript, React, Next, Node,
-              MongoDB, and Express. I also have solid foundations in HTML5,
-              CSS3, Bootstrap, Tailwind, ECMAScript, React Bootstrap, and
-              Material UI Theme Customization.
+              Hi, Im a professional Full Stack Engineer. I am an expert on
+              JavaScript, React, Next, Node, MongoDB, and Express. I also have
+              solid foundations in HTML5, CSS3, Bootstrap, Tailwind, ECMAScript,
+              React Bootstrap, and Material UI Theme Customization.
               <br />
               <br />
               I'm eagerly looking for a career in a creative organization where
