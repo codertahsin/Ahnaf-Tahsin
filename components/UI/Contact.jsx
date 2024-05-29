@@ -44,10 +44,10 @@ const Contact = () => {
               <Link href="https://www.linkedin.com/login">
                 <i className="ri-linkedin-line"></i>
               </Link>
-              <Link href="https://www.twitter.com/coder_tahsin">
+              <Link href="https://www.twitter.com/imahnaftahsin">
                 <i className="ri-twitter-line"></i>
               </Link>
-              <Link href="https://www.instagram.com/codertahsin">
+              <Link href="https://www.instagram.com/imahnaftahsin">
                 <i className="ri-instagram-line"></i>
               </Link>
               <Link href="https://www.facebook.com/codertahsin">
